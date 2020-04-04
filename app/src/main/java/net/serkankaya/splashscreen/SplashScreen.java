@@ -17,10 +17,10 @@ public class SplashScreen extends AppCompatActivity {
         ImageView imageView=findViewById(R.id.image_view);
 
         Glide.with(this).load((R.drawable.splashscreen)).into(imageView);
-        startAnaEkran();
+        startMainScreen();
     }
 
-    private void startAnaEkran() {
+    private void startMainScreen() {
 
         Thread git = new Thread() {
             @Override
